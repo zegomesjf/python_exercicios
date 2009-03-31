@@ -14,9 +14,9 @@ class Circulo(object):
             self.__raio = valor
         else:
             raise TypeError ("Raio deve ser um valor numérico")
+
+    raio = property (get_raio, set_raio)
     
     def __str__(self):
         pi = math.pi
-        return pi * pow(get_raio(self),2)
-
-    raio = property (get_raio, set_raio)
+        return str( pi * pow(self.raio ,2) ) 
