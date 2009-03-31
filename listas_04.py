@@ -46,4 +46,5 @@ class Salto(object):
 		a = { 'name': name, 'distances': distances }
 		self.v.append(a)
 
+# run --------
 s = Salto()
