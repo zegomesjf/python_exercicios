@@ -1,4 +1,4 @@
-#encoding: latin1 
+#encoding: latin1
 #Compara duas Strings em tamanho e conteúdo.
 
 string_1 = raw_input('Digite a primeira String.\n')

@@ -1,4 +1,4 @@
-#.*.coding: latin1*.* 
+#.*.coding: latin1*.*
 #Nome ao contrário em maiúsculas
 
 name = raw_input('Digite seu nome: ')
