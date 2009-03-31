@@ -1,8 +1,9 @@
 #encoding: latin1
 #Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
 
-import math
+from math import (pi, pow)
 class Circulo(object):
+
     def __init__(self):
         self.__raio = 0.00
 
@@ -18,5 +19,4 @@ class Circulo(object):
     raio = property (get_raio, set_raio)
     
     def __str__(self):
-        pi = math.pi
         return str( pi * pow(self.raio ,2) ) 
